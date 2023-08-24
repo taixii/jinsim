@@ -1,0 +1,229 @@
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0 auto;
+        font-family: 'Noto Sans KR', sans-serif;
+        
+    }
+
+    .container {
+        background: linear-gradient(180deg, rgba(0, 253, 177, 0.67) 0%, rgba(14, 246, 79, 0.16) 26.56%, rgba(56, 226, 103, 0.00) 100%);
+        padding-bottom: 80px;
+    }
+
+
+    .header1 {
+        padding-top: 30px;
+    }
+
+    .upper-line {
+        background-color: #000000;
+        margin: 0;
+        width: 92%;
+        height: 15px;
+    }
+
+    .header2 {
+        padding: 15px;
+        margin: 0 auto;
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        
+    }
+
+    .landing-link {
+        text-decoration: none;
+        color: #000000;
+        
+        
+    }
+
+    .qna {
+        margin: 70px 0px;
+    }
+
+    .accent {
+        font-weight: 700;
+    }
+
+   
+
+    .header3 {
+        text-align: right;
+    }
+
+    .lower-line {
+        background-color: #000000;
+        margin: 0;
+        width: 92%;
+        height: 15px;
+        display: inline-block;
+    }
+
+    .content {
+        padding: 100px 110px 0;
+        font-size: 20px;
+        font-weight: 300;
+        font-family: 'Noto Serif KR', sans-serif;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
+
+    .grid {
+        height: 200px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 100px 0 260px;
+    }
+
+    .grid1 {
+        border-right: 1px solid #000000;
+    }
+
+    
+
+    
+
+    
+
+    .buttons {
+        padding: 100px 20px 20px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .button {
+        font-family: 'Noto Serif KR';
+        font-size: 20px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #446d57;
+        text-decoration: none;
+        width: 240px;
+        height: 80px;
+        color: #eeffee;
+        
+        font-weight: 700;
+
+    }
+
+    .button.register {
+        margin-bottom: 30px;
+    }
+
+    .google-form {
+        font-family: 'Noto Serif KR', sans-serif;
+        font-size: 20px;
+        width: 240px;
+        height: 70px;
+        margin: 15px auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        background-color: #ffffff;
+        color: #000000;
+        padding: 12px 24px;
+        font-weight: 700;
+        border: 1px solid #000000;
+        border-radius: 30px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        box-shadow: 2px 2px 2px;
+    }
+
+    .google-form:hover {
+        background-color: #d1ffd3;
+    }
+
+    .footer {
+        background-color: #1a1a1a;
+        height: 200px;
+        text-align: center;
+        color: #aaaaaa;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .sns {
+        width: 80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .sns img {
+        width: 30px;
+        margin: 0 5px;
+    }
+
+    .sns-menu {
+        margin: 0 10px;
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: #aaaaaa;
+    }
+
+    .little {
+        display: inline-block;
+        font-size: 14px;
+        font-family: 'Noto Sans KR', sans-serif;
+        color: #858585;
+        padding-left: 20px;
+        
+        margin-bottom: 12px;
+    }
+
+    .little-insta {
+        font-weight: 700;
+        color: #858585;
+    }
+
+    
+@media (max-width: 767px)
+{
+    .header2 {
+        font-size: 30px;
+    }
+
+    .footer {
+        font-size: 12px;
+    }
+
+    .content {
+        padding: 100px 40px 0;
+        font-size: 15px;
+    }
+
+    .qna {
+        margin: 50px 0;
+    }
+
+    .little {
+        font-size: 12px;
+    }
+
+}
+
+
+
+
