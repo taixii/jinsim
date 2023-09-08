@@ -26,35 +26,14 @@
         animation: fadeIn 1s ease-in-out forwards;
     }
 
-    .header1 {
-        padding-top: 30px;
-    }
-
-    .upper-line {
-        background-color: #000000;
-        margin: 0;
-        width: 92%;
-        height: 15px;
-    }
-
-    .header2 {
-        padding: 20px 0;
-        margin: 0 auto;
-        font-size: 40px;
-        font-weight: 700;
+    .header {
         text-align: center;
     }
 
-    .header3 {
-        text-align: right;
-    }
-
-    .lower-line {
-        background-color: #000000;
-        margin: 0;
-        width: 92%;
-        height: 15px;
-        display: inline-block;
+    .logo {
+        width: 500px;
+        padding-top: 50px;
+        
     }
 
     .content {
@@ -175,10 +154,10 @@
 
 @media (max-width: 767px)
 {
-    .header2 {
-        font-size: 30px;
+    .logo {
+        width: 250px;
     }
-
+    
     .footer {
         font-size: 12px;
     }
